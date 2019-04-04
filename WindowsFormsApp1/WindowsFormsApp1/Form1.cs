@@ -33,12 +33,10 @@ namespace WindowsFormsApp1
             misAlumnos.Agregar(miAlumno);
         }
     }
-
     class Alumno
     {
         private string nombre;
-        private int nota;
-        public string Nombre
+        private int nota;        public string Nombre
         {
             get { return nombre; }
             set { nombre = value; }
